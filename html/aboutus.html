@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>關於我們</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/aboutus.css">
+  <style>
+    img {
+      float: left;
+    }
+
+    div {
+      margin-left: 20%;
+      margin-right: 20%;
+      clear: left;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    table,
+    th,
+    td {
+      font-family: 標楷體;
+      color: #003F88;
+    }
+  </style>
+</head>
+
+<body>
+  <header id="header">
+    <div class="inner">
+      <h2 class="top">全原進食中</h2>
+      <p id="catch">關於我們!</p>
+    </div>
+
+    <div class="h-home">
+      <p id="pagetop">
+        <a class="hhhome" href="../html/title.html">
+          <img src="../images/house (1) (1) (1).png">
+        </a>
+      </p>
+    </div>
+  </header>
+  <!-- 請開始你的內容-->
+  <div class="body">
+    <h1 align="center">李明潔 10844203</h1>
+    <p><img src="../images/1.jpg" width="30%">
+      上了多媒體這門課，雖然比之前的JSP還要容易些，但其中的標籤編排、內容撰寫及CSS的套用都非常多元且繁雜，要在這麼短時間內運用上課所學，來寫出完整的網頁，不但要相連，還要各有各的排版跟特效，最讓我頭疼的還是呼叫圖片跟套用CSS，因為只要更改了所放路徑，內嵌的連結也要跟著更改，且一有小誤差，就完全套用不上去，有種功虧一簣的感覺，明明內容都完成，網頁也會呈現得很好，但就是呼叫上就是有問題；所幸助教不厭其煩的指導，網站的疑難雜症幾乎都迎刃而解，很感激助教的幫忙，也感謝如此賣力的組員們!
+    </p>
+  </div>
+  <div class="body">
+    <h1 align="center">黃詩婷 10614145</h1>
+    <p><img src="../images/2.jpg" width="30%">
+      這次很開心可以安麗關於中原的美食，中原大學位於一個很好的美食地區，附近藏匿著的大大小小的國民美食，有興趣也帶著這個線上的美食地圖來晃晃吧</p>
+  </div>
+  <div class="body">
+    <h1 align="center">李柏翰 10844252</h1>
+    <p><img src="../images/3.jpg" width="30%">
+      由於我是這學期的轉系生，在面對這堂課的上課內容時，其實有很多挫折，對於初來乍到的我來說，要直接開始架設網站，說實在話，這是我想都沒有想過的事，但在經歷多次的嘗試及試驗後，我發現原來我是也能做到的，即使花的時間比別人來得長，即使需要更多的努力，但我覺得這一切都很值得。而在經過這次的期中報告，雖然時常碰壁，但也都因著請教組員以及上網查資料而將問題迎刃而解，真的很感謝有非常用心的組員。
+    </p>
+  </div>
+  <div class="body">
+    <h1 align="center">徐萌鏘 10827275</h1>
+    <p><img src="../images/4.jpg" width="30%" height="70%">
+      在這門多媒體的課程上，我很高興可以與別人一起合作完成一個網頁去介紹中原大學周邊的美食，看著自己參與的網頁一點點地完善起來，那個成就感與成功感真的令人感到十分滿足與自豪。在初次寫那麽多的網頁並整合起來的這個過程中，當然也會遇到不少的困難，例如我就在排版的位置糾結了很久，還好在最後還是成功跨過了。最後很感謝願意與我一起完成這份網站作業的各位同學們。
+    </p>
+  </div>
+  <form style="clear: left;" action="form_submit" method="get" accept-charset="utf-8" method="post"
+    action="hipeter.lee88@gmail.com?subject=中原美食網站建議">
+    <fieldset style=" border-radius: 5px; padding: 30px">
+      <legend style="font-size:56px; font-family: 標楷體; color: #003F88;">聯繫我們</legend>
+      <table class="table" align="center">
+        <tr>
+          <td align="center">　姓名：</td>
+          <td><input type="text" id="inputName" placeholder="Name"></td>
+          <td align="center">　學號：</td>
+          <td><input type="text" id="inputNumber" placeholder="Number"></td>
+          <td align="center">　系級：</td>
+          <td><input type="text" id="inputDepartment level" placeholder="Department level"></td>
+        </tr>
+        <tr>
+          <td align="center">　性別：</td>
+          <td><input type="radio" name="gender" value="male">男<sub>male</sub><input type="radio" name="gender"
+              value="female">女<sub>female</sub></td>
+          <td align="center">　電話：</td>
+          <td><input type="text" id="inputPhone" placeholder="Phone"></td>
+          <td align="center">　信箱：</td>
+          <td><input type="text" id="inputEmail" placeholder="Email"></td>
+        </tr>
+        <tr>
+          <td colspan="2" rowspan="4" align="center">想給我們的話：</td>
+          <td colspan="4" rowspan="4"><textarea cols="52" rows="4" id="inputSuggest"
+              placeholder="What do you want to say to us？">　</textarea></td>
+        </tr>
+      </table>
+      <center><button type="button" class="btn btn-outline-success btn-lg"
+          style="font-family: 標楷體; color: #003F88;">按下送出</button></center>
+    </fieldset>
+  </form>
+  <!--頁尾 -->
+  <footer id="footer">
+    Copyright © 2019 ChihAn ChiaHsuan ChangHuan YuNung<br>
+    32023 桃園市中壢區中北路二OO號 200 Chung Pei Road, Chung Li District, Taoyuan City, Taiwan 32023, R.O.C.<br>
+    中原大學資管系<br>
+    Tel：+886-3-265-9999 , +886-3-456-3171 │ Fax：+886-3-265-8888 , +886-3-456-3176<br>
+  </footer>
+</body>
+
+</html>

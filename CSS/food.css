@@ -1,0 +1,136 @@
+body {
+  background-color: #fff1b0;
+  color: #666666;
+  text-align: center;
+  margin: 0%;
+}
+
+.header {
+  margin: 0%;
+  position: relative;
+}
+
+.inner {
+  padding: 40px 0;
+  text-decoration: none;
+  width: 100%;
+  height: 50%;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 標楷體;
+  text-shadow: 0px 3px 0px #9DC8C8,
+    0px 14px 10px rgba(0, 0, 0, 0.15),
+    0px 24px 2px rgba(0, 0, 0, 0.1),
+    0px 34px 30px rgba(0, 0, 0, 0.1);
+  font-style: normal;
+  color: #3F37C9;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0%;
+}
+
+div.inner {
+  width: 100%;
+  height: 1300px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 標楷體;
+  text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.15) 0px 14px 10px rgba(0, 0, 0, 0.15),
+    0px 24px 2px rgba(0, 0, 0, 0.1),
+    0px 34px 30px rgba(0, 0, 0, 0.1);
+  font-style: normal;
+  color: black;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10p;
+}
+
+.top {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-home {
+  position: absolute;
+  top: 200px;
+}
+
+.hhhome {
+  max-width: 80px;
+  max-width: 80px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hhhome>img {
+  width: 100%;
+}
+
+#footer {
+
+  width: 100%;
+  height: 100px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #274555;
+  font-size: 13px;
+  text-align: center;
+  color: #E9ECEF;
+  padding-bottom: 10px;
+
+}
+
+#pagetop {
+  float: right;
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+#catch {
+  font-size: 26px;
+  color: black;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 30%;
+  padding-bottom: 5%;
+
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+}
+
+.tb {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 150px;
+  bottom: unset;
+}
+
+.ss {
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  padding: 50px 0;
+
+}
+
+.small {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+  font-size: 20px;
+  font-variant: initial;
+  color: #e1eef6;
+  padding-top: 10px;
+}
