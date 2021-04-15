@@ -58,8 +58,8 @@ div.inner {
 }
 
 .hhhome {
-  max-width: 80px;
-  max-width: 80px;
+  max-width: 100px;
+  max-width: 100px;
   overflow: hidden;
   display: flex;
   justify-content: center;

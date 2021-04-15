@@ -15,7 +15,7 @@ body {
   background-color: #ff7761;
 }
 
-.header {
+.head {
   margin: 0%;
   position: relative;
 }
@@ -103,6 +103,15 @@ div.inner {
 
 .img {
   width: 100%;
+}
+
+.c-i-a>img {
+  width: 100px;
+}
+
+.c-i-a>img:hover {
+  width: 150px;
+  transition: .3s;
 }
 
 a {
