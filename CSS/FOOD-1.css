@@ -35,6 +35,8 @@ body {
     columns: 3;
     column-rule: rgb(104, 109, 58) dotted 1px;
     position: relative;
+    padding-left: 10PX;
+    padding-right: 10PX;
   }
     P.TIT{
       font-family: 'Times New Roman', Times, serif;
@@ -57,13 +59,40 @@ body {
       font-style: oblique;
       text-align: center;
   }
+  #footer {
 
-  #footer{
-    width:100%;
-    height: 85px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
     background-color: #274555;
-    font-size: 12px;
+    font-size: 13px;
     text-align: center;
     color: #E9ECEF;
-   
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #catch {
+    font-size: 26px;
+    color: #3F37C9;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5%;
+  }  
+  .cnn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 10px;
+  }
+  
+  .c-i-a>img {
+    width:80px;
+    height: 80px;
+  }
+  
+  .c-i-a>img:hover {
+    width: 100px;
+    height: 100px;
+    transition: .3s;
   }

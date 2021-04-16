@@ -18,20 +18,26 @@ body {
   h2{
       text-align: center;
       font-weight:bolder;
+      column-span: all;
   }
   span{
     font-size: 50px;
   }
   img {
-    width: 500px;
-    height:800px;
+    width: 350px;
+    height:500px;
     position: relative;
   }
   
   .all {
-    width: 1200;
-    height: 800px;
+    width: 1000;
+    height: 750px;
+    columns: 2;
+    column-rule: rgb(104, 109, 58) dotted 1px;
     position: relative;
+    padding-left: 10PX;
+    padding-right: 10PX;
+  
   }
   P.TIT{
     font-family: 'Times New Roman', Times, serif;
@@ -62,4 +68,21 @@ body {
   }
   .con {
     padding:3px;
+  }
+  .cnn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 10px;
+  }
+  
+  .c-i-a>img {
+    width:80px;
+    height: 80px;
+  }
+  
+  .c-i-a>img:hover {
+    width: 100px;
+    height: 100px;
+    transition: .3s;
   }

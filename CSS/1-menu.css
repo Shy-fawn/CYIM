@@ -36,4 +36,20 @@ body {
     background-color: rgb(235, 235, 235);
     float: right;
     }
-  
+    .cnn {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 100px 10px;
+    }
+    
+    .c-i-a>img {
+      width:80px;
+      height: 80px;
+    }
+    
+    .c-i-a>img:hover {
+      width: 100px;
+      height: 100px;
+      transition: .3s;
+    }

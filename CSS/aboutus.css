@@ -8,26 +8,25 @@ body {
   background-color: #e1eef6;
 }
 
-#header {
+.header {
   margin: 0%;
   position: relative;
 }
 
-div.inner {
-  background: url(https://lh3.googleusercontent.com/sPCy9wkAL-NjG9Nyy4f5KeDhye0hhZglvHDY9Qc8W-zu1e06IGAlvEkv58-IorTz4xu85B6pL4-KbSWavFxLPskrdmJiODoZqyeb9Uheic6M6hxNaACNVBw10_Hzd9FAQ7SJWH56HCulzVxlq3IWgzq22_hbOsj6AtjhAdfV7JRJdw_PYJVWMd0J0Y0bsMgqRPpep-az60sism_MAlzJxSdqAjK0MHyIqwgj4iKuEYwMSVMSu7uawISqpsh2c9OegzCVBbLMj2gL6hi6IrNGiURlXFLYcwjU6osfQEn7YAjqNCqD-GottFHmug-FbAEmOaIaXe6GgKkVE1Xr3yZBf74KGZxKtGHICyatF7824Q_WFN7shDCqQT_jQSWyt-5GZG3alX_py-xVVMxyxlnFX1u3gprHaFSuOHlSIHNL1Fe15gepLWh0EMsvMbPnmimHK27YmCNj4P_08UrNqoKG4n2vTjCEIQ0RgJmNPmH6NnqMwPE8qX8GOkqujiUPiMpIXjhofcZ__5cmiX_us9m_erJeMHG_y0efMCDEOSyUsiYjkcW6JQ5lWsX6KS52CjB-wsamUaqhmAdBWC_PrEP9R__b27m8SlAKmn5ntNsg8hAqWt7sbBjFsxsnWxHCyKnbpx0794gK2eYfJA3O7PF7G4b2iA20roddMc7p58p_EfnQYR6iISEtkeWECy87Hq4-GUbuKOsQ0xaCkalYuqsQgLyD=w500-h413-no?authuser=0);
-  text-decoration: none;
+.inner {
   padding: 40px 0;
+  text-decoration: none;
   width: 100%;
   height: 50%;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
   font-family: 標楷體;
-  text-shadow: 0px 3px 0px #2A9D8F,
+  text-shadow: 0px 3px 0px #9DC8C8,
     0px 14px 10px rgba(0, 0, 0, 0.15),
     0px 24px 2px rgba(0, 0, 0, 0.1),
     0px 34px 30px rgba(0, 0, 0, 0.1);
   font-style: normal;
-  color: #8ACAE6;
+  color: #3F37C9;
   letter-spacing: 1px;
   text-align: center;
   margin: 0%;
@@ -41,6 +40,10 @@ div.body {
   padding-top: 10px;
 }
 
+.putit {
+  font-family: 標楷體;
+  color: #003F88;
+}
 
 .top {
   padding-top: 10px;
@@ -51,18 +54,34 @@ div.body {
 
 .h-home {
   position: absolute;
-  top: 190px;
+  top: 200px;
 }
 
 .hhhome {
   max-width: 80px;
   max-width: 80px;
+  margin-left: -250px;
+  margin-top: -70px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.myname {
+  text-decoration: none;
+  width: 100%;
+  height: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 標楷體;
+  text-shadow: 0px 5px 0px #A2D2FF;
+  font-style: normal;
+  color: #4361EE;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0%;
+}
 
 .hhhome>img {
   width: 100%;
@@ -72,17 +91,23 @@ div.body {
   margin-top: 20px 20 20 20;
 }
 
-#footer {
+.foot {
   clear: left;
   width: 100%;
   margin-left: 0px;
   margin-right: 0px;
   background-color: #274555;
-  font-size: 18px;
+  font-size: 13px;
   text-align: center;
-  color: #ECF8F8;
+  color: #E9ECEF;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.change {
+  font-size: 40px;
+  font-family: 標楷體;
+  color: #003F88;
 }
 
 #pagetop {
@@ -92,7 +117,7 @@ div.body {
 
 #catch {
   font-size: 26px;
-  color: #FFBA08;
+  color: #3F37C9;
   letter-spacing: 1px;
   text-align: center;
   padding-top: 30px;
